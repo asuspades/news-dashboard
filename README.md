@@ -150,16 +150,7 @@ This app is static, but it **does need** a small proxy for RSS:
 
 ---
 
-## 📜 License
-
-Personal/educational use. Verify each publisher’s RSS Terms of Use before redistribution or commercial use.
-
----
-
 ## 🗺️ Roadmap (nice-to-haves)
 
-* Per-source toggle menu and on/off prefs (localStorage)
-* Relative time auto-ticks (without refresh)
+* AP’s public site doesn’t offer open RSS; need their API
 * Offline cache of last successful fetch
-* Keyboard navigation between tabs
-* Dark/light theme switch
