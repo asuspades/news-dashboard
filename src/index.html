@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>🗞️ News Dashboard</h1>
+    <p class="subtitle">Latest headlines from trusted sources</p>
+
+    <div class="controls">
+      <button class="refresh-btn" id="refreshBtn">🔄 Refresh News</button>
+      <div class="loader" id="loader"></div>
+      <div class="status" id="status">Ready to load news</div>
+    </div>
+
+<div class="source-filters" id="filters">
+  <button class="source-btn active" data-cat="world">WORLD</button>
+  <button class="source-btn" data-cat="us">US</button>
+  <button class="source-btn" data-cat="cyber">CYBER</button>
+</div>
+
+  <div class="news-grid" id="newsGrid"></div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
